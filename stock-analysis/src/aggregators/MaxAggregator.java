@@ -1,9 +1,12 @@
 package aggregators;
 
+import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 
 public class MaxAggregator extends Aggregator{
+
+	public MaxAggregator(){}
 	
 	public MaxAggregator(List<Double> numbers) {
 		this.numbers = new ArrayList<Double>();
